@@ -1,6 +1,9 @@
 # Claude Code settings
 .claude/
 
+# Reference notebooks
+refs/
+
 # Python
 __pycache__/
 *.py[cod]
