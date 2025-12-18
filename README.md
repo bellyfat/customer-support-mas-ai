@@ -14,20 +14,6 @@ The system is built on Google Cloud Platform with:
 
 For detailed architecture documentation, see [ARCHITECTURE.md](./docs/ARCHITECTURE.md).
 
-## Implementation Based on Kaggle 5-Day AI Agents Course
-
-This project implements and extends concepts from Kaggle 5-Day AI Agents Intensive materials:
-
-| Course Topic | Implementation | Production Enhancement |
-|-------------|----------------|----------------------|
-| **Multi-Agent Orchestration** | ✅ Root + 3 Specialists + Workflow agents | Cost-optimized with Gemini 2.5 Pro + Flash |
-| **Sequential Workflows** | ✅ 3-step refund validation pipeline | Validation gates prevent invalid operations |
-| **Session Management** | ✅ Vertex AI Agent Engine sessions | Backend proxy with JWT auth + multi-user support |
-| **Memory Bank** | ✅ Vertex AI Memory Bank with callbacks | Cross-session preference recall |
-| **Observability** | ✅ LoggingPlugin + Cloud Logging | Production-ready monitoring |
-| **Evaluation & Testing** | ✅ Vertex AI Gen AI Evaluation + AgentEvaluator | 10+ evalset files with LLM-as-judge metrics |
-| **Deployment** | ✅ Vertex AI Agent Engine + Cloud Run | Full-stack with automation scripts |
-
 ## Key Features
 
 - 🤖 **Multi-Agent System** - Root agent coordinates specialized agents (Product, Order, Billing)
@@ -40,6 +26,16 @@ This project implements and extends concepts from Kaggle 5-Day AI Agents Intensi
 - 🧪 **Comprehensive Testing** - Pytest automation with ADK AgentEvaluator
 - 🎤 **Voice Features** - Speech-to-text input and text-to-speech output
 - ☁️ **Cloud Deployment** - Deploy to Cloud Run + Vertex AI Agent Engine
+
+|  Topic | Implementation | Production Enhancement |
+|-------------|----------------|----------------------|
+| **Multi-Agent Orchestration** | ✅ Root + 3 Specialists + Workflow agents | Cost-optimized with Gemini 2.5 Pro + Flash |
+| **Sequential Workflows** | ✅ 3-step refund validation pipeline | Validation gates prevent invalid operations |
+| **Session Management** | ✅ Vertex AI Agent Engine sessions | Backend proxy with JWT auth + multi-user support |
+| **Memory Bank** | ✅ Vertex AI Memory Bank with callbacks | Cross-session preference recall |
+| **Observability** | ✅ LoggingPlugin + Cloud Logging | Production-ready monitoring |
+| **Evaluation & Testing** | ✅ Vertex AI Gen AI Evaluation + AgentEvaluator | 10+ evalset files with LLM-as-judge metrics |
+| **Deployment** | ✅ Vertex AI Agent Engine + Cloud Run | Full-stack with automation scripts |
 
 ## Quick Start
 
